@@ -1,33 +1,96 @@
 html {
-	background: gray; 
-	padding: 5px;
-	margin: 0px;
+	
+	background: #1a1a1a; 
+	padding: 1px;
+	margin: 1px;
 }
-footer {
-	display: block;
-	text-align:center;
-}
-footer p {
-	color: blue;
-}
-footer a {
-	color: blue;
-}
-footer address {
-	color: blue;
-}
-/*  Top Navigation Bar  */
 
-.navbar {
+main {
+	background: #1a1a1a;
 	display:block;
-	background-color: #352d2f;
-	height: auto;
-	width: auto;
+	margin: 1px;
+	padding:1px;
+	
+}
+
+main p {
+	display: block;
+	color: white;
+}
+
+main H2 {
+	display: block;
+	color: white;
+}
+
+footer {
+	background-color: #404cb2;
+	display: block;
+	text-align:left;
+	
+}
+
+footer p {
+	color:404cb2;
+}
+
+footer a {
+	text-decoration: none;
+	color: 404cb2;
+	float: right;
+}
+
+
+footer address {
+	color: 404cb2;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
   
 }
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
+
+
+/* NAV BAR WITH LOGO */
+
+.navbar {
+	display:block;
+	background-color: ##292929;
+	height:100%;
+	width: 100%;
+	border-radius: 5px;
+}
+
 .navbar img{
+	background-color: #404cb2;
 	display: block;
+	border-radius: 5px;
 	position: auto;
 	float: left;
 	width: 22%;
@@ -37,17 +100,13 @@ footer address {
 }
 
 .navbar ul {
-	
 	width: auto;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
-  
-  
 }
 
 .navbar li {
-  
 	padding: 5px;
 	display: inline;
 }
@@ -61,41 +120,51 @@ footer address {
 	opacity: 0.5;
 	margin:  5px;
 }
+
 .link:hover {
     
     color:#ffd34f;
 }
+/* PHONE AND ADDRESS ARE A LINK FOR THE CONTACT INFO */
 
 .contact {
 	display: block;
 	float: right;
-	
-	
 	text-align: right;
 	padding: 5px 15px;
 	font-size: auto;
 }
+
 .contact a {
 	color: #404cb2;
 	text-decoration: none;
 }
-
-/* centered image */
-
-.container {
-	display:block;
-	width: 100%;
-	margin-left: auto;
-    margin-right: auto
-	
+.aboveImage {
+	text-align: center;
+	padding: 5px 15px;
+	font-size: auto;
+	color: white;
 }
 
 .image {
-	display: block;
-	
+	background-color: #404cb2;
+	display:block;
+	border-radius: 5px;
 	width: 100%;
+	height: 100%
+	
+	
+}
+
+.image img {
+	background-color: #404cb2;
+	display: block;
+	border-radius: 5px;
+	position: relative;
+	float: left;
+	width: 28%;
 	padding: 5px;
-	margin: 5px;
+	margin: 0px;
 	
 }
 
@@ -106,4 +175,39 @@ footer address {
 	height: 22%;
 	background: #000000;
 	display: block;
+}
+
+.column {
+
+	background-color:#262626;
+	width:100%
+	
+}
+.grid  {
+	background-color:black;
+	width:100%
+}
+
+.grid h2 {
+	color: white;
+	
+}
+.grid p {
+	color: white;
+}
+
+/* RESPOSIVE GRID FOR INVENTORY PAGE*/
+
+.grid {
+	display: flex;
+	padding: 0 2px;
+}
+
+
+/* wow */
+
+@media screen and (max-width: 600px) {
+  .grid {
+    width: 100%;
+  }
 }

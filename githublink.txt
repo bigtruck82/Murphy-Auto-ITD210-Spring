@@ -1,1 +1,2 @@
-The GitHub link = https://github.com/joshandrew/dealership
+The Group GitHub link = https://github.com/joshandrew/dealership
+The personal GitHub link = https://github.com/bigtruck82/Murphy-Auto-ITD210-Spring
